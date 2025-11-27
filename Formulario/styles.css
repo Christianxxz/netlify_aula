@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 320px;
+}
+
+h1 {
+    color: rgb(49, 107, 161);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: rgb(50, 145, 209);
+    outline: none;
+    box-shadow: 0 0 5px rgba(50, 145, 209, 0.5);
+}
+
+button {
+    background-color: rgb(50, 145, 209);
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(10, 64, 100);
+}
+
+a {
+    color: rgb(50, 145, 209);
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
